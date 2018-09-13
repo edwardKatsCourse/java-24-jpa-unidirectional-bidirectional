@@ -1,0 +1,24 @@
+Level 1
+1. Create a server. Add lombok, web, JPA and H2 (or any other database of your choise, but make sure you delete the database between levels)
+2. Create packages and corresponding classes: repository, model, service and controller and *Service, *Repository
+3. Create entities: Employee (id, firstName, lastName) and Company (id, companyName)
+4. Create a DTO class: CompanyResponse
+5. Create a CompanyController
+6. CompanyController should have a methods: save(), getCompany()
+7. getCompany() returns CompanyResponse and save() returns CompanyResponse
+8. CompanyResponse has fields: companyName and a List<String> employeesNames
+9. save() creates a new companyName
+10. Create an EmployeeController 
+11. Create a class EmployeeRequest (firstName, lastName, companyId)
+12. EmployeeController should have methods: 
+	- addEmployee(EmployeeRequest employeeRequest) 
+	- getEmloyees(Long companyId) retuning a List<String> (first name + last name)
+13. Use unidirectional relation
+
+Level 2
+1. Modify the system to use a bidirectional relation
+2. Company should contain a List<Employee>
+3. Make sure add and get work in the same way as level 1
+
+Level 3
+1. Contact me in private
