@@ -6,7 +6,7 @@ Level 1
 5. Create a CompanyController
 6. CompanyController should have a methods: save(), getCompany()
 7. getCompany() returns CompanyResponse and save() returns CompanyResponse
-8. CompanyResponse has fields: Company and a List<String> employeesNames
+8. CompanyResponse has fields: companyName and a List<String> employeesNames
 9. save() creates a new Сompany
 10. Create an EmployeeController 
 11. Create a class EmployeeRequest (firstName, lastName, companyId)
