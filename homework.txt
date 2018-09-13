@@ -12,7 +12,7 @@ Level 1
 11. Create a class EmployeeRequest (firstName, lastName, companyId)
 12. EmployeeController should have methods: 
 	- addEmployee(EmployeeRequest employeeRequest) 
-	- getEmloyees(Long companyId) retuning a List<String> (first name + last name)
+	- getEmloyees(Long companyId) returning a List<String> (first name + last name)
 13. Use unidirectional relation
 
 Level 2
